@@ -1,0 +1,17 @@
+{
+  "name": "cockatoo-writing-server",
+  "version": "1.0.0",
+  "description": "Server for the Year 5 information reports writing app: AI feedback + class data collection",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
